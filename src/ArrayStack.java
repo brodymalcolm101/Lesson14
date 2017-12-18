@@ -30,4 +30,4 @@ public class ArrayStack implements Stack {
 		return list.size();
 	}
 }
-}
+
