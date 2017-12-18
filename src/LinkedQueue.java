@@ -22,12 +22,12 @@ public class LinkedQueue implements Queue{
 	}
 
     @Override
-    public void enqueue(Object o) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void enqueue(Object obj) {
+        list.add(obj);
     }
 
     @Override
     public int size() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return list.size();
     }
 }
