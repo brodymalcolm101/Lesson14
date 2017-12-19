@@ -33,13 +33,12 @@ public class LinkedPriorityQueue implements Priorityqueue{
 
     @Override
     public Object dequeue() {
-                     if(hasData()==false)
-               
+                  
              
              
              for (int i = 0; i < list.length; i++) {
             if(list[i].size() > 0 )
-                  return list[i].remove(i);
+                  return list[i].remove(0);
         }
             throw new IllegalStateException ("Queue is empty");
                  
